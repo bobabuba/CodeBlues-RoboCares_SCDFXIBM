@@ -3,7 +3,7 @@
 ## Content
 - [The Team](#the-team)
 - [Short Description](#short-description)
-- [Demo Video](#demo-video)
+- [Pitch Video](#Pitch-video)
 - [The Architecture](#the-architecture)
 - [Detailed Solution Description](#detailed-solution-description)
 - [Getting Started](#getting-started)
@@ -28,7 +28,7 @@ As Singapore pushes to be a smart nation, SCDF can better harness the power of t
 ### Idea: Robocares
 There is a crucial need for the ability to detect incidents in homes, especially for vulnerable populations. Robocares is a home monitoring system, developed with IBM Cloud and Watson Services, which allow for better understanding and prompt alert at the onset of incidents which require emergency response, which in turn enhances the process of mobilising CFRs for effective early intervention.
 
-## Demo Video
+## Pitch Video
 [![Watch the video](Link to image of video)](youtube link to video)
 or use
 [title](youtube link to video)
