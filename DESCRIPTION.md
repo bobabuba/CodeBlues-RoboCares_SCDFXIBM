@@ -101,5 +101,6 @@ Main idea: Leveraging on existing technologies (MyResponders App) , (Dog, UAV) a
 
 ## Who it help?
 Examples of vulnerable populations include:
-- Elderly with no next of kin
+- Elderly with no next of kin, living alone
 - People with dementia
+– Elderly who are alone at home most of the time (eg. their children are working)
