@@ -36,7 +36,7 @@ or use
 ## The Architecture
 The following diagram shows the workflow for the NODE_RED voice chatbot that assesses the incidents.
 
-![alt text](image file)
+![Architecture Diagram](architecture-diagram.png)
 
 1. Home monitoring system detects potential emergency, rings, and activates voice enabled NODE-RED website with voice chatbot.
 2. Chatbot prompts a question to the user to ask if he/she requires help.
