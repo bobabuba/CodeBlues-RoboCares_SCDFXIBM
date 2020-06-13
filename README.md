@@ -50,7 +50,7 @@ The following diagram shows the workflow for the NODE_RED voice chatbot that ass
 10. Node-RED plays the chat answer .wav file to the user.
 11. The user listens to the chat answer.
 12. Deploy help from CFRs via myResponder App, or SCDF, where applicable.
-13. Collection of data of incidents for future data analysis and enhancements of system.
+13. Collection of data of incidents for future data analysis using Watson Studio and Watson Machine Learning to improve on the system.
 
 ## Detailed Solution Description
 [More detail is available here](DESCRIPTION.md)
