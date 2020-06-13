@@ -91,7 +91,7 @@ Main idea: Leveraging on existing technologies (MyResponders App) , (Dog, UAV) a
 - Collate areas of improvement and effective areas, and improve future deployments accordingly
 - i.e. make first aid kit more accessible, etc
 
-## Who does it help?
+## Who it help?
 Examples of vulnerable populations include:
 - Elderly with no next of kin
 - People with dementia
