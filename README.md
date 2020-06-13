@@ -19,33 +19,24 @@ Our team members consist of:
 
 ## Short Description
 ### Problem Statement: Emergency Medical Services
-Problem to target:
-1. Timely discovery of incidents, especially for vulnerable populations with no one near them
-2. Analysis and tracking of current situation while waiting for help to come
-3. Mobilization of CFRs for effective early and effective intervention, especially for vulnerable populations
+With Singapore facing an increasingly silver population, there is a growing segment of vulnerable elderly population. These include elderly living alone, those with no next of kin, and those who are mostly alone at home. The occurence of emergencies in these homes may be oblivious to the public eye, until it is too late. 
 
-Technology
-- Use of IoT to obtain readings like motion, temperature and humidity, voice to make sense of the situation
-- Use of AI to develop Voice Chatbot to further analyse the situation and obtain details from victim
-- Use of Data Analytics and Machine Learning to develop a model to predict whether there is an event, as well as type and severity of event, based on readings collected
-- Use of IoT to notify and mobilise CFRs
-- Use of Data analytics to record past incidents (accuracy of prediction of events, time taken for help to arrive etc) for future enhancements
+### How can technology help?
+As Singapore pushes to be a smart nation, SCDF can better harness the power of technology to respond more effectively to emergencies (e.g. cardiac arrests, falls, unattended cooking fires etc.). Moreover, SCDF can leverage on enhancing and streamlining the process for mobilising CFRs for early intervention. These improvements will greatly enhance SCDF's capabilities to save lives.
 
-Solution: Robocares Home Monitoring system
-1. Home monitoring system to detect potential cardiac arrests, falls, unattended cooking fires, etc, and seek help from SCDF quickly
-2. Live feedback of readings continues as help is being deployed to incident location
-3. "Check on your neighbour" feature, perhaps with clearer instructions on incident details and possible items they need to bring along (i.e. AED, first aid kit, fire extinguisher, etc)
+### Idea: Robocares
+There is a crucial need for the ability to detect incidents in homes, especially for vulnerable populations. Robocares is a home monitoring system, developed with IBM Cloud and Watson Services, which allow for better understanding and prompt alert at the onset of incidents which require emergency response, which in turn enhances the process of mobilising CFRs for effective early intervention.
 
 ## Demo Video
-b) Pitch Video*
+[![Watch the video](Link to image of video)](youtube link to video)
 
 ## The Architecture
-1. Home monitoring system to be installed at homes, 24hr monitoring
-2. System detects potential emergency
-3. System rings, then activates voice chatbot.
-4. Watson Speech to Text processes audio and extracts the text
-5. Watson Translation translate text to desired language
-6. Watson Text to Speech for chatbot to respond to user
+1. System detects potential emergency
+2. System rings, then activates voice chatbot.
+3. Watson Speech to Text processes audio and extracts the text
+4. Watson Language Translator translate text to desired language
+5. Watson Text to Speech for chatbot to respond to user
+6. Watson Tone Analyser to derive emotions of casualty
 7. Information sent to SCDF and myResponder App, to deploy help
 8. Data collection of incidents for data analysis and future enhancement
 
@@ -58,5 +49,8 @@ f) Getting started* (Step-by-step instructions to install the required software 
 to run a demo of your solution)
 
 ## Built With
-i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)
+1. Voice Chatbot: Watson Assistant, Speech to Text, Text to Speech, Tone Analyser, Language Translator, Node Red
+2. Data Analysis
 
+2. Node Red
+i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)
