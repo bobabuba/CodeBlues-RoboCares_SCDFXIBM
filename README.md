@@ -8,6 +8,7 @@
 - [Detailed Solution Description](#detailed-solution-description)
 - [Getting Started](#getting-started)
 - [Built With](#built-with)
+- [Future Work](#future-work)
 
 ## The Team
 Our team is called CodeBlues.
@@ -29,28 +30,44 @@ There is a crucial need for the ability to detect incidents in homes, especially
 
 ## Demo Video
 [![Watch the video](Link to image of video)](youtube link to video)
+or use
+[title](youtube link to video)
 
 ## The Architecture
-1. System detects potential emergency
-2. System rings, then activates voice chatbot.
-3. Watson Speech to Text processes audio and extracts the text
-4. Watson Language Translator translate text to desired language
-5. Watson Text to Speech for chatbot to respond to user
-6. Watson Tone Analyser to derive emotions of casualty
-7. Information sent to SCDF and myResponder App, to deploy help
-8. Data collection of incidents for data analysis and future enhancement
+The following diagram shows the workflow for the NODE_RED voice chatbot that assesses the incidents.
+
+![alt text](image file)
+
+1. Home monitoring system detects potential emergency, rings, and activates voice enabled NODE-RED website with voice chatbot.
+2. Chatbot prompts a question to the user to ask if he/she requires help.
+3. User gives an answer, 'Yes' or 'No'
+4. Node-RED records the speech wav audio format and calls the Watson Speech to Text service hosted in IBM Cloud.
+5. Watson Speech to Text uses machine learning to decode the user's speech.
+6. Watson Speech to Text replies with a transcript of the answer and Node-RED calls Watson Assistant service hosted in IBM Cloud.
+7. Watson Assistant uses natural language understanding and machine learning to extract entities and intents of the user question.
+8. Watson Assistant replies to the user inquiry and Node-RED sends the text transcript to Watson Text to Speech.
+9. Watson Text to Speech encodes the message in the user's language.
+10. Node-RED plays the chat answer .wav file to the user.
+11. The user listens to the chat answer.
+12. Deploy help from CFRs via myResponder App, or SCDF, where applicable.
+13. Collection of data of incidents for future data analysis and enhancements of system.
 
 ## Detailed Solution Description
-d) A hyperlink to your detailed solution* (Long description of your solution)
-make a DESCRIPTION.md, copy and paste the google docs we wrote
+[More detail is available here](DESCRIPTION.md)
 
 ## Getting Started
 f) Getting started* (Step-by-step instructions to install the required software and how
 to run a demo of your solution)
 
 ## Built With
-1. Voice Chatbot: Watson Assistant, Speech to Text, Text to Speech, Tone Analyser, Language Translator, Node Red
-2. Data Analysis
+Watson Assistant
+Watson Speech to Text
+Watson Text to Speech
+Node-RED
+Watson Studio
 
-2. Node Red
-i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)
+## Future Work
+### Enhanced voice analysis
+The current solution only uses sensors to collect raw data like volume and frequency, and makes its predictions based on collected readings. IBM Cloud services could be used for a deeper analysis and hence improve the quality of predictions. 
+
+For instance, Tone Analyser could be used to predict the emotions of the casualty, hence adding an additional indicator to predict the severity of the situation. Language Translator could be used to understand and response in the various languages and dialects present in Singapore.
