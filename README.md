@@ -19,14 +19,10 @@ Our team members consist of:
 
 ## Short Description
 ### Problem Statement: Emergency Medical Services
-[HJ's original para] Problem to target:
+Problem to target:
 1. Timely discovery of incidents, especially for vulnerable populations with no one near them
 2. Analysis and tracking of current situation while waiting for help to come
 3. Mobilization of CFRs for effective early and effective intervention, especially for vulnerable populations
-
-[Gini's para idk if we need write in prose]
-With Singapore facing an increasingly silver population, there is a growing segment of vulnerable elderly population. These include elderly living alone, those with no next of kin, and those who are mostly alone at home. As Singapore pushes to be a smart nation, important agencies such as the SCDF can better harness the power of technology to respond more effectively to emergencies (e.g. cardiac arrests, falls, unattended cooking fires etc.). Moreover, SCDF can leverage on enhancing and streamlining the process for mobilising CFRs for early intervention. These improvements will greatly enhance SCDF's capabilities to save lives.    
-
 
 Technology
 - Use of IoT to obtain readings like motion, temperature and humidity, voice to make sense of the situation
