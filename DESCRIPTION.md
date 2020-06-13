@@ -2,13 +2,19 @@
 
 ## Content
 - [Background](#background)
-- [Why Robocares?](#why-robocares)
-- [What is it?](#what-is-it)
-- [How it works?](#how-it-works)
 - [Who it helps?](#who-it-helps)
+- [Why Robocares?](#why-robocares)
+- [What is the ROBOCARES Home Monitoring System?](#what-is-the-robocares-home-monitoring-system)
+- [How does it work?](#how-does-it-work)
 
 ## Background
 With Singapore facing an increasingly silver population, there is a larger vulnerable elderly population. These include elderly living alone, those with no next of kin, and those who are mostly alone at home. As Singapore pushes to be a smart nation, important agencies such as the SCDF can better harness the power of technology to respond more effectively to emergencies (e.g. cardiac arrests, falls, unattended cooking fires etc.). Moreover, SCDF can leverage on enhancing and streamlining the process for mobilising CFRs for early intervention. These improvements will greatly enhance SCDF's capabilities to save lives.  
+
+## Who does it help?
+Examples of vulnerable populations include:
+- Elderly with no next of kin, living alone
+- People with dementia
+– Elderly who are alone at home most of the time (eg. their children are working)
 
 ## Why Robocares?
 ### Problems to tackle
@@ -32,8 +38,8 @@ With Singapore facing an increasingly silver population, there is a larger vulne
 - Use of IoT to notify and mobilise CFRs
 - Use of Data Analytics to record past incidents (accuracy of prediction of events, time taken for help to arrive etc) for future enhancements
 
-## What is it?
-ROBOCARES Home monitoring system consists of a central cloud system linked to multiple devices (ROBOCARES) which are placed around the house.  The system utilises IoT, AI, Data Analytics and Machine Learning. Each ROBOCARE consist of 3 types of sensors and have the HFAD incorporated. These devices are recommended to be placed in locations where the elderly frequent such as the toilets, bedrooms, living room and kitchen. 
+## What is the ROBOCARES Home Monitoring System?
+ROBOCARES Home monitoring system consists of a central cloud system linked to multiple devices (ROBOCARES) which are placed around the house.  The system utilises IoT, AI, Data Analytics and Machine Learning. Each ROBOCARE consist of 3 types of sensors and have the HFAD incorporated. We recommend that these devices be placed in locations where the elderly frequent such as the toilets, bedrooms, living room and kitchen. 
 
 Using the sensors, the ROBOCARES Home Monitoring System tells us 3 important pieces of information: (1) Whether there is truly an emergency (2) Type of emergency [if any] (3) Severity of emergency. This allows for better sense-making at the onset of the incident.
 
@@ -45,62 +51,67 @@ The first type of UAV is the AED UAV, while the second type of UAV is the Fire E
 
 Depending on the type of event suspected, the type of UAV deployed will differ. This allows the CFRs to head directly to the location and have the necessary equipment and/or first aid supplies to help the resident more effectively and quickly. 
 
-## How it works?
+## How does it work?
 ### Component 1: ROBOCARES
 ####  Sensors
-##### Workings of sensors
-1. Volume + Frequency (Tone)
-- Differentiate between person’s voice and others’ voice (Eg. from technological devices - TV, phone, radio)
-- Voice match
-- Abnormalities: Sudden, loud bang sound, sound of person collapsing, loud sounds, clashes, shouts, screams, words like ‘help’ (in different languages)
-2. Motion sensor
-- AI: Track usual time spent in various parts of the house (toilet), detect any abnormalities
-- Track whether movement is present
-3. HFAD (heat and smoke detector)
-- Using existing SCDF technology detect fires
-- Siren
-- Will be placed in kitchen, but given 1 minute to disarm before we activate uav and myresponder app
-##### Voice Chatbot
-It will then first ring for 5 seconds (like an alarm)
-then ask in dialect/malay/the selected language: Is there anything wrong? Do you need help?
-Flowchart
-1. ‘No’ -> the chatbot will then say ‘okay’ and then -end-
-2. ‘Yes, help’/’Help me’
-- UAV (Carrying AED and First Aid Kit) activated 
-- Notification sent to the MyResponders App - ‘Injury/Cardiac Case suspected’ (new category)
-3. No response → after 20 seconds, the robot will ring again and then prompt ‘is there anything wrong? Do you need help? If you do not need help, please say no.’ just to remind the elderly that a negative response is needed. After 40 seconds (2 reminder rings), 
-- UAV (Carrying AED and First Aid Kit) activated 
-- Notification sent to the MyResponders App - ‘Cardiac Case suspected’
-#### Step 1C: Data Analytics and event prediction
-- Data analysis of past cases of fire, falls, cardiac arrest on indicators like: volume, tone, temperature, etc
-- Trained model based on database to accurately categorize cases and level of emergency
+1. Volume Sensor
+- Detect sudden increases in volume
+- Examples: Shouting, Loud bangs, Clashing, Collapsing, Explosions, Loud thuds (Possibly from someone collapsing)
+between person’s voice and others’ voice (Eg. from technological devices - TV, phone, radio)
+2. Frequency Sensor
+- Detect changes in frequency that may be cause for concern (eg. From Screaming)
+- The frequency sensor can be set to be compatible to recognise the resident’s voice. Hence, when the resident is experiencing an emergency, the frequency sensor will be able to differentiate between the resident’s voice and others’ voice (eg. from technological devices - TV, phone, radio) through voice matching.
+3. Motion Sensor
+- A smart analyzing system can be used to track usual time spent by the resident in various parts of the house. This will allow the system to identify abnormalities in the movement patterns of the resident.
+- Sensor will also sound out if if movement is absent for prolonged periods of time
+4. Home Fire Alarm Device (HFAD)
+- Existing SCDF technology used to detect fires
+- Will be placed in kitchen, but resident will be given 1 minute to disarm in case of false alarms before we activate the UAV and MyResponder app.
 
-### Stage 2: Mobilization of CFRs for effective early intervention
-Main idea: Leveraging on existing technologies (MyResponders App) , (Dog, UAV) and giving existing technologies new uses. 
+#### Voice Chatbot
+- Robocare will first ring for 5 seconds (like an alarm)
+- Chatbot will then ask in Dialect/Malay/the selected language: Is there anything wrong? Do you need help?
+- Refer to Flowchart 1 below for the workings of the Voice Chatbot
+
+### Component 2: Unmanned Aerial Vehicles (UAVs)
+- As mentioned earlier, two types of Unmanned Aerial Vehicles (UAVs) will be stationed at the void deck of HDB blocks to complement ROBOCARES. The number of UAVs found in each neighbourhood depends on the population density of vulnerable groups in that location. 
+- The first type of UAV is the AED UAV, while the second type of UAV is the Fire Extinguisher UAV. As the name suggests, the former will carry around an AED, while the latter carries with it an small portable fire extinguisher. Both UAVs will also be equipped with first aid kits.
+- Depending on the type of event suspected, the type of UAV deployed will differ. This allows the CFRs to head directly to the location and have the necessary equipment and/or first aid supplies to help the resident more effectively and quickly. 
+
+-insert image of UAVs-
+
+### Component 3: Mobilization of CFRs for effective early intervention
+The mobilization of CFRs will be illustrated through the 4 main types of cases
 1. Suspected Minor Fire Case
-- Activate UAV (Carry smaller size fire extinguisher + First Aid Kit to the scene)
-- Activate CFRs on MyResponder App - “Minor Fire’
+- Indications: HFAD Activated alarm
+- Activates Fire Extinguisher UAV
+- Activates CFRs on MyResponder App - “Minor Fire’
 - Eg. Unattended Cooking Fire
-- HFAD: Drastic increase in temperature in localized area
-- Motion Sensor, Volume Sensor and Tone Sensor: Can be no abnormalities detected
 2. Suspected Major Fire Case
-- Activate CFRs on MyResponder App - “Major Incident”
-- Eg. Explosion 
-- Device may detect sharp spike in temperature before being disconnected (damaged)
+- Indications: HFAD Activated Alarm before being disconnected (eg. damaged due to explosion)
+- Activates CFRs on MyResponder App - “Major Incident”
 3. Suspected Fall/Cardiac Case
-- Any abnormalities in the motion, volume or tone sensor will automatically activate the Voice Chatbot.
-- Motion Sensor: Abnormal patterns of motion detected or 
-- Volume Sensor: Spike in volume (Scream for help) or 
-- Tone Sensor: Distressed sensed in tone of person
-- HFAD: Can be no abnormalities detected
+- Voice Chatbot: Activated by abnormalities reported in the Motion, Volume or Frequency Sensors
 
-### Stage 3: Using analytics to refine the system
-- Data analysis of incidents like: accuracy of prediction, time taken for CFR to arrive, required items to gelp the situation, etc
-- Collate areas of improvement and effective areas, and improve future deployments accordingly
-- i.e. make first aid kit more accessible, etc
+## Putting it Together
+Using the Flowchart for the Voice Chatbot, we illustrate how all the 3 components are put together
 
-## Who it helps?
-Examples of vulnerable populations include:
-- Elderly with no next of kin, living alone
-- People with dementia
-– Elderly who are alone at home most of the time (eg. their children are working)
+Flowchart 1:
+-insert image of flowchart-
+
+### Component 4: Using analytics to refine the system
+- Use of Artificial Intelligence (AI) to categorize cases and level of emergency more accurately to improve further deployments.
+- Information (Including what each of the sensors picked up) from each case will be added into the database and AI will be used to refine the prediction as to what type of event it is, which can help to improve deployments and effectiveness of response to such incidents as it is clearer as to what information are needed for the type of event accordingly.
+
+Information to be included in database:
+- Volume Sensor’s indicator (Depending on the instrument)
+- Volume Sensor - Abnormality? (Y/N)
+- Frequency Sensor’s indicator (Depending on the instrument)
+- Frequency Sensor - Abnormality? (Y/N)
+- Motion Sensor’s indicator (Depending on instrument)
+- Motion Sensor - Abnormality? (Y/N)
+- HFAD Triggered? (Y/N)
+- To Predict: Type of Event (Cardiac Arrest Case, First Aid Case, Minor Fire Case, Major Fire Case)
+
+
+
