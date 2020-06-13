@@ -1,6 +1,15 @@
 # CodeBlues-RoboCares_SCDFXIBM
 
-## The team
+## Content
+- [The Team](#the-team)
+- [Short Description](#short-description)
+- [Demo Video](#demo-video)
+- [The Architecture](#the-architecture)
+- [Detailed Solution Description](#detailed-solution-description)
+- [Getting Started](#getting-started)
+- [Built With](#built-with)
+
+## The Team
 Our team is called CodeBlues.
 Our team members consist of:
 - Crystal Teo
@@ -8,7 +17,7 @@ Our team members consist of:
 - Claire Tang
 - Koh Hui Juan
 
-## Short description
+## Short Description
 ### Problem Statement: Emergency Medical Services
 [HJ's original para] Problem to target:
 1. Timely discovery of incidents, especially for vulnerable populations with no one near them
@@ -31,10 +40,10 @@ Solution: Robocares Home Monitoring system
 2. Live feedback of readings continues as help is being deployed to incident location
 3. "Check on your neighbour" feature, perhaps with clearer instructions on incident details and possible items they need to bring along (i.e. AED, first aid kit, fire extinguisher, etc)
 
-## Demo video
+## Demo Video
 b) Pitch Video*
 
-## The architecture
+## The Architecture
 1. Home monitoring system to be installed at homes, 24hr monitoring
 2. System detects potential emergency
 3. System rings, then activates voice chatbot.
@@ -44,24 +53,14 @@ b) Pitch Video*
 7. Information sent to SCDF and myResponder App, to deploy help
 8. Data collection of incidents for data analysis and future enhancement
 
-## Detailed solution description
+## Detailed Solution Description
 d) A hyperlink to your detailed solution* (Long description of your solution)
 make a DESCRIPTION.md, copy and paste the google docs we wrote
 
-## Project roadmap (optional)
-e) Project Roadmap/ Proposed timeline
-
-## Getting started
+## Getting Started
 f) Getting started* (Step-by-step instructions to install the required software and how
 to run a demo of your solution)
 
-## Running the tests (optional)
-g) Running the tests (Explanation and breakdown on how to run tests for the proposed
-solution) 
-
-## Live demo (optional)
-h) Live demo (Link to an actual working demo/website)
-
-## Built with
+## Built With
 i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)
 
