@@ -3,7 +3,7 @@
 ## Content
 - [Background](#background)
 - [Why Robocares](#why-robocares)
-- [What is Robocares?](#what is robocares)
+- [What is Robocares?](#what-is-robocares)
 - [How it works?](#how-it-works)
 - [Who it helps?](#who-it-helps)
 
