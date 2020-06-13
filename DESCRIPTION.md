@@ -47,7 +47,7 @@ Examples of vulnerable populations include:
 – Elderly who are alone at home most of the time (eg. their children are working)
 
 ## What is it?
-![Overview of ROBOCARES System](Overview of ROBOCARES System.png)
+![Overview of ROBOCARES System](Overview of ROBOCARES System.PNG)
 
 ROBOCARES Home monitoring system consists of a central cloud system linked to multiple devices (ROBOCARES) which are placed around the house.  The system utilises IoT, AI, Data Analytics and Machine Learning. Each ROBOCARE consist of 3 types of sensors and have the HFAD incorporated. These devices are recommended to be placed in locations where the elderly frequent such as the toilets, bedrooms, living room and kitchen. 
 
@@ -59,7 +59,7 @@ Additionally, two types of Unmanned Aerial Vehicles (UAVs) will be stationed at 
 
 ## How it works?
 ### Component 1: ROBOCARES
-![ROBOCARES Device](ROBOCARES Device.png)
+![ROBOCARES Device](ROBOCARES Device.PNG)
 ####  Sensors
 ROBOCARES leverages on IoT to obtain readings on various environmental factors, which will be compared against a benchmark to detect possible emergencies. It utilises various types of sensors
 
@@ -96,7 +96,7 @@ The first type of UAV is the AED UAV, while the second type of UAV is the Fire E
 
 Depending on the type of event suspected, the type of UAV deployed will differ. This allows the CFRs to head directly to the location and have the necessary equipment and/or first aid supplies to help the resident more effectively and quickly. 
 
-![AED and Fire Extinguisher UAVs](AED and Fire Extinguisher UAVs.png)
+![AED and Fire Extinguisher UAVs](AED and Fire Extinguisher UAVs.PNG)
 
 ### Putting it together
 Putting Components 1 and 2 together, the following are 3 possible scenarios.
