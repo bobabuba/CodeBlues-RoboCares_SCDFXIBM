@@ -13,7 +13,7 @@ Our team members consist of:
 Problem to target:
 1. Timely discover of incidents, especially for vulnerable populations with no one near them
 2. Analysis and tracking of current situation while waiting for help to come
-3. Mobilization of CFRs for effective early intervention especially to vulnerable populations
+3. Mobilization of CFRs for effective early and effective intervention, especially for vulnerable populations
 
 Technology
 - Use of IoT to obtain readings like motion, temperature and humidity, voice to make sense of the situation
@@ -59,6 +59,5 @@ solution)
 h) Live demo (Link to an actual working demo/website)
 
 ## Built with
-i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud
-Functions, etc…)
+i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)
 
