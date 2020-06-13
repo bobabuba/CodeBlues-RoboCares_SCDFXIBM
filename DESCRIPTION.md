@@ -2,8 +2,8 @@
 
 ## Content
 - [Background](#background)
-- [Why Robocares](#why-robocares)
-- [What is Robocares?](#what-is-robocares)
+- [Why Robocares?](#why-robocares)
+- [What is it?](#what-is-it)
 - [How it works?](#how-it-works)
 - [Who it helps?](#who-it-helps)
 
@@ -32,7 +32,7 @@ With Singapore facing an increasingly silver population, there is a larger vulne
 - Use of IoT to notify and mobilise CFRs
 - Use of Data Analytics to record past incidents (accuracy of prediction of events, time taken for help to arrive etc) for future enhancements
 
-## What is the ROBOCARES Home Monitoring System?
+## What is it?
 ROBOCARES Home monitoring system consists of a central cloud system linked to multiple devices (ROBOCARES) which are placed around the house.  The system utilises IoT, AI, Data Analytics and Machine Learning. Each ROBOCARE consist of 3 types of sensors and have the HFAD incorporated. These devices are recommended to be placed in locations where the elderly frequent such as the toilets, bedrooms, living room and kitchen. 
 
 Using the sensors, the ROBOCARES Home Monitoring System tells us 3 important pieces of information: (1) Whether there is truly an emergency (2) Type of emergency [if any] (3) Severity of emergency. This allows for better sense-making at the onset of the incident.
@@ -99,7 +99,7 @@ Main idea: Leveraging on existing technologies (MyResponders App) , (Dog, UAV) a
 - Collate areas of improvement and effective areas, and improve future deployments accordingly
 - i.e. make first aid kit more accessible, etc
 
-## Who it help?
+## Who it helps?
 Examples of vulnerable populations include:
 - Elderly with no next of kin, living alone
 - People with dementia
