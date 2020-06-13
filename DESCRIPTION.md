@@ -1,4 +1,4 @@
-# Robocares inhouse central smart system
+# ROBOCARES Home Monitoring System
 
 ## Content
 - [Background](#background)
@@ -12,35 +12,43 @@ With Singapore facing an increasingly silver population, there is a growing segm
 
 ## Why Robocares?
 ### Problems to tackle
-1. Timely discovery of incidents, especially for vulnerable populations with no one near them
-2. Analysis and tracking of current situation while waiting for help to come
-3. Mobilization of CFRs for effective early and effective intervention, especially for vulnerable populations
+1. Distinguishing an incident from a false alarm to reduce wastage of precious resources
+2. Timely discovery of incidents, especially for vulnerable populations who spend most of their time at home alone
+3. Analysis and tracking of situation while waiting for the emergency services to come
+4. Mobilization of CFRs for effective early and effective intervention, especially for vulnerable populations
 
 ### Solution
-1. Home monitoring system to detect potential cardiac arrests, falls, unattended cooking fires, etc, and seek help from SCDF quickly
-2. Live feedback of readings continues as help is being deployed to incident location
-3. "Check on your neighbour" feature, perhaps with clearer instructions on incident details and possible items they need to bring along (i.e. AED, first aid kit, fire extinguisher, etc)
+1. ROBOCARES Home Monitoring System can help to determine if the resident is in an emergency situation
+2. ROBOCARES Home Monitoring System can help to assess the severity of the situation with the use of sensors and a voice chatbot
+3. Real-time information continues to be uploaded and analyzed by the relevant personnel while help is being deployed to location of incident
+4. CFRs are mobilized early on so that they can provide timely help or resolve any minor issues quickly
+5. Utilizing technology to get important resources to the scene more quickly, allowing for more timely response from CFRs as they reduce their journey time to the house as they do not have to worry about getting the resources
 
 ### Technology involved
-- Use of IoT to obtain readings like motion, temperature and humidity, voice to make sense of the situation
+- Use of existing technology like the MyResponder App and Home Fire Alarm Device (HFAD).
+- Use of IoT to obtain readings like motion, , voice to make sense of the situation
 - Use of AI to develop Voice Chatbot to further analyse the situation and obtain details from victim
 - Use of Data Analytics and Machine Learning to develop a model to predict whether there is an event, as well as type and severity of event, based on readings collected
 - Use of IoT to notify and mobilise CFRs
 - Use of Data Analytics to record past incidents (accuracy of prediction of events, time taken for help to arrive etc) for future enhancements
 
-## What is Robocares?
-A central cloud (idk if this term is used correctly) system 
-+ multiple (decide range of number? Can do like a minimum __ devices) small devices placed around the house 
-(compulsory: Toilet(s), Bedroom(s), living room, kitchen)
+## What is the ROBOCARES Home Monitoring System?
+ROBOCARES Home monitoring system consists of a central cloud system linked to multiple devices (ROBOCARES) which are placed around the house.  The system utilises IoT, AI, Data Analytics and Machine Learning. Each ROBOCARE consist of 3 types of sensors and have the HFAD incorporated. These devices are recommended to be placed in locations where the elderly frequent such as the toilets, bedrooms, living room and kitchen. 
+
+Using the sensors, the ROBOCARES Home Monitoring System tells us 3 important pieces of information: (1) Whether there is truly an emergency (2) Type of emergency [if any] (3) Severity of emergency. This allows for better sense-making at the onset of the incident.
+
+The ROBOCARES Home Monitoring System is linked to the MyResponder app, and will activate CFRs depending on the type of event detected. This will be elaborated on further in the later parts of the explanation.
+
+Additionally, two types of Unmanned Aerial Vehicles (UAVs) will be stationed at the void deck of HDB blocks to complement ROBOCARES. The number of UAVs found in each neighbourhood depends on the population density of vulnerable groups in that location. 
+
+The first type of UAV is the AED UAV, while the second type of UAV is the Fire Extinguisher UAV. As the name suggests, the former will carry around an AED, while the latter carries with it an small portable fire extinguisher. Both UAVs will also be equipped with first aid kits. 
+
+Depending on the type of event suspected, the type of UAV deployed will differ. This allows the CFRs to head directly to the location and have the necessary equipment and/or first aid supplies to help the resident more effectively and quickly. 
 
 ## How it works?
-### Stage 1: Making sense of the situation
-#### Step 1A: Sensors (real-time information fed to central cloud system which is not placed in the household) 
-in multiple smaller devices to determin 
-- Whether there is an event
-- Type of event
-- Severity of event
-##### Workings of sensor
+### Component 1: ROBOCARES
+####  Sensors
+##### Workings of sensors
 1. Volume + Frequency (Tone)
 - Differentiate between person’s voice and others’ voice (Eg. from technological devices - TV, phone, radio)
 - Voice match
@@ -52,7 +60,7 @@ in multiple smaller devices to determin
 - Using existing SCDF technology detect fires
 - Siren
 - Will be placed in kitchen, but given 1 minute to disarm before we activate uav and myresponder app
-#### Step 1B: Voice chatbot (assessment of situation and casualty)
+##### Voice Chatbot
 It will then first ring for 5 seconds (like an alarm)
 then ask in dialect/malay/the selected language: Is there anything wrong? Do you need help?
 Flowchart
