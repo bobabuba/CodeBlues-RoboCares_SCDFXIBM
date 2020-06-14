@@ -20,13 +20,13 @@ Our team members consist of:
 
 ## Short Description
 ### Problem Statement: Emergency Medical Services
-With Singapore facing an increasingly silver population, there is a growing segment of vulnerable elderly population. These include elderly living alone, those with no next of kin, and those who are mostly alone at home. The occurence of emergencies in these homes may be oblivious to the public eye, until it is too late. 
+With Singapore facing an increasingly silver population, there is a growing segment of vulnerable elderly population. These include elderly living alone, those with no next of kin, and those who are mostly alone at home. The occurence of emergencies in these homes may be oblivious to the public eye, and help may not arrive until it is too late. 
 
 ### How can technology help?
 As Singapore pushes to be a smart nation, SCDF can better harness the power of technology to respond more effectively to emergencies (e.g. cardiac arrests, falls, unattended cooking fires etc.). Moreover, SCDF can leverage on enhancing and streamlining the process for mobilising CFRs for early intervention. These improvements will greatly enhance SCDF's capabilities to save lives.
 
-### Idea: Robocares
-There is a crucial need for the ability to detect incidents in homes, especially for vulnerable populations. Robocares is a home monitoring system, developed with IBM Cloud and Watson Services, which allow for better understanding and prompt alert at the onset of incidents which require emergency response, which in turn enhances the process of mobilising CFRs for effective early intervention.
+### Idea: ROBOCARES
+There is a crucial need for the ability to detect incidents in homes, especially for vulnerable populations. ROBOCARES is a home monitoring system, developed with IBM Cloud and Watson Services. Our system allow for better understanding and prompt alert at the onset of incidents which require emergency response. This in turn enhances the process of mobilising CFRs for effective early intervention.
 
 ## Pitch Video
 [![Watch the video](Link to image of video)](youtube link to video)
