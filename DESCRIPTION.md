@@ -5,7 +5,7 @@
 - [Why Robocares?](#why-robocares)
 - [Who it helps?](#who-it-helps)
 - [What is it?](#what-is-it)
-- [How does it work?](#how-does-it-work)
+- [How it work?](#how-it-work)
 
 ## Background
 With Singapore facing an increasingly silver population, there is a larger vulnerable elderly population. These include elderly living alone, those with no next of kin, and those who are mostly alone at home. As Singapore pushes to be a smart nation, important agencies such as the SCDF can better harness the power of technology to respond more effectively to emergencies (e.g. cardiac arrests, falls, unattended cooking fires etc.). Moreover, SCDF can leverage on enhancing and streamlining the process for mobilising Community First Responders (CFRs) for early intervention. These improvements will greatly enhance SCDF's capabilities to save lives.  
@@ -47,7 +47,7 @@ Examples of vulnerable populations include:
 – Elderly who are alone at home most of the time (eg. their children are working)
 
 ## What is it?
-![Overview of ROBOCARES System](Overview of ROBOCARES System.PNG)
+![Overview of ROBOCARES System](overview.jpg)
 
 ROBOCARES Home monitoring system consists of a central cloud system linked to multiple devices (ROBOCARES) which are placed around the house.  The system utilises IoT, AI, Data Analytics and Machine Learning. Each ROBOCARE consist of 3 types of sensors and has the HFAD incorporated. These devices are recommended to be placed in locations where the elderly frequent such as the toilets, bedrooms, living room and kitchen. 
 
@@ -59,21 +59,21 @@ Additionally, two types of Unmanned Aerial Vehicles (UAVs) will be stationed at 
 
 ## How it works?
 ### Component 1: ROBOCARES
-![ROBOCARES Device](ROBOCARES Device.PNG)
+![ROBOCARES Device](robocares-device.jpg)
 ####  Sensors
-ROBOCARES leverages on IoT to obtain readings on various environmental factors, which will be compared against a benchmark to detect possible emergencies. It utilises various types of sensors:
+ROBOCARES leverages on IoT to obtain readings on various environmental factors, which will be compared against a benchmark to detect abnormalities indicating possible emergencies. It utilises various types of sensors:
 
 1. Volume Sensor
-- Purpose: To identify for screams or shouts of help, or sounds of someone collapsing
-- Abnormalities: Spikes in volume (from screaming, shouting, loud banging or thuds from falls)
+- Purpose: To identify for screams or shouts of help, or sounds of someone collapsing.
+- Abnormalities include spikes in volume (screaming, shouting, loud banging or thuds from falls) or sudden disappearance of sounds (unconscious)
 
 2. Frequency (Tone) Sensor
-- Purpose: To pickup tones of anxiety, alarm or distress in the elderly's voice
-- Through the use of AI, ROBOCARES can leverage on Voice Match function to recognise the user's voice, and differentiate between the user's voice and other voices (i.e. from electronic gadgets like television, mobile phones, radio). This prevents false alarms, such as screams from movies
+- Purpose: To pickup tones of anxiety, alarm or distress in the elderly's voice.
+- Through the use of AI, ROBOCARES can leverage on Voice Match function to recognise the user's voice, and differentiate between the user's voice and other voices (i.e. from electronic gadgets like television, mobile phones, radio). This prevents false alarms, such as screams from movies.
 
 3. Motion sensor
-- ROBOCARES uses AI to track the usual distribution of time spent in various parts of the house, and will be alerted when detecting any abnormalities in movement patterns
-- ROBOCARES also dectects if a fall has occurred
+- ROBOCARES uses AI to track the usual distribution of time spent in various parts of the house, and will be alerted when detecting any abnormalities in movement patterns.
+- ROBOCARES also dectects if a fall has occurred.
 
 4. HFAD (heat and smoke detector)
 - This is the existing SCDF technology which detect fires
@@ -90,14 +90,14 @@ ROBOCARES will also be able to detect responses in the selected language or dial
 Depending on the situation, the required help will be deployed. This will be elaborated further in the explanation below under "Putting it together"
 
 ### Component 2: Unmanned Aerial Vehicles (UAVs)
-There are two types of UAVs.
+There are two types of UAVs that could be deployed to the scene of incident.
+
+![AED and Fire Extinguisher UAVs](uav.jpg)
 
 The first type of UAV is the AED UAV, while the second type of UAV is the Fire Extinguisher UAV. 
 As the name suggests, the former will carry around an AED, while the latter carries with it an small portable fire extinguisher. Both UAVs will also be equipped with first aid kits. 
 
-Depending on the type of event suspected, the type of UAV deployed will differ. This allows the CFRs to head directly to the location and have the necessary equipment and/or first aid supplies to help the resident more effectively and quickly. 
-
-![AED and Fire Extinguisher UAVs](AED and Fire Extinguisher UAVs.PNG)
+Depending on the type of event suspected, the suitable type of UAV will be deployed. This allows the CFRs to head directly to the scene of incident and have the necessary equipment and/or first aid supplies, hence helping the resident more effectively and quickly by eliminating the additional time required to look for and obtain such required resources. 
 
 ### Putting it together
 Putting Components 1 and 2 together, the following are 3 possible scenarios.
@@ -113,15 +113,16 @@ Putting Components 1 and 2 together, the following are 3 possible scenarios.
 - Eg. Explosion 
 
 3. Suspected Fall/Cardiac Case
-- Any abnormalities in the motion, volume or tone sensor will automatically activate the Voice Chatbot.
+- Indicator: Sensors detect abonormalities in motion, volume or tone
+- Activate Voice Chatbot
 - The Voice Chatbox's flowchart is shown below.
-
 ![Flowchart](flowchart.png)
 
-### Component 3: Artificial Intelligence
-Information from each case will be added into a database and AI will be used to refine the predictions made by the central clouds system to better predict what is the type of event. The database can be analysed to allocate resources eg. UAVs more effectively to areas needed the most. This can help to make future mobilization of CFRs more effective and reduce wastage of precious resources.
+### Component 3: Data Analysis
+#### Analysis of indicators of emergencies
+To develop the ROBOCARES home monitoring system, past emergencies and non-emergencies will be analysed to obtain a benchmark for the respective indicators (volume, frequency, motion) which will be then used by Component 1 and 2 to make a prediction on whether the incident is an emergency, as well as the type and severity of it.
 
-Information to be presented in database
+Information to be presented in database include:
 - Volume Sensor’s indicator (Depending on the instrument)
 - Volume Sensor - Abnormality? (Y/N)
 - Frequency Sensor’s indicator (Depending on the instrument)
@@ -130,3 +131,14 @@ Information to be presented in database
 - Motion Sensor - Abnormality? (Y/N)
 - HFAD Triggered? (Y/N)
 - To Predict: Type of Event (Cardiac Arrest Case, First Aid Case, Minor Fire Case, Major Fire Case)
+
+[A sample of how this database looks like can be seen here.](sensor_info_prediction.csv)
+
+#### Analysis of performance of ROBOCARES
+Information from each case will be added into a database and AI will be used to refine the predictions made by the central clouds system to better predict what is the type of event. The database can be analysed to allocate resources eg. UAVs more effectively to areas needed the most. This can help to make future mobilization of CFRs more effective and reduce wastage of precious resources.
+
+Information to be presented in database include:
+- Accuracy of predictions
+- Time taken for deployment of help
+
+[A sample of how this database looks like can be seen here.](incidents_analysis_info.csv)
