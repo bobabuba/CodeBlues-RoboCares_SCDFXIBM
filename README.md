@@ -29,9 +29,7 @@ As Singapore pushes to be a smart nation, SCDF can better harness the power of t
 There is a crucial need for the ability to detect incidents in homes, especially for vulnerable populations. ROBOCARES is a home monitoring system, developed with IBM Cloud and Watson Services. Our system allow for better understanding and prompt alert at the onset of incidents which require emergency response. This in turn enhances the process of mobilising CFRs for effective early intervention.
 
 ## Pitch Video
-[![Watch the video](Link to image of video)](youtube link to video)
-or use
-[title](youtube link to video)
+[![Watch the video](pitch-video.png)](http://youtu.be/LS9eNe_yfl4)
 
 ## The Architecture
 The following diagram shows the workflow for the NODE_RED voice chatbot that assesses the incidents.
