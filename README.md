@@ -26,7 +26,7 @@ With Singapore facing an increasingly silver population, there is a growing segm
 As Singapore pushes to be a smart nation, SCDF can better harness the power of technology to respond more effectively to emergencies (e.g. cardiac arrests, falls, unattended cooking fires etc.). Moreover, SCDF can leverage on enhancing and streamlining the process for mobilising CFRs for early intervention. These improvements will greatly enhance SCDF's capabilities to save lives.
 
 ### Idea: ROBOCARES
-There is a crucial need for the ability to detect incidents in homes, especially for vulnerable populations. ROBOCARES is a home monitoring system, developed with IBM Cloud and Watson Services. Our system allow for better understanding and prompt alert at the onset of incidents which require emergency response. This in turn enhances the process of mobilising CFRs for effective early intervention.
+There is a crucial need for the ability to detect incidents in homes, especially for vulnerable populations. ROBOCARES is a home monitoring system, developed with IBM Cloud and Watson Services. Our system allows for better understanding and prompt alert at the onset of incidents which require emergency response. This in turn enhances the process of mobilising CFRs for effective early intervention.
 
 ## Pitch Video
 [![Watch the video](pitch-video.png)](https://youtu.be/LS9eNe_yfI4)
