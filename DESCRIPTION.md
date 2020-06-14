@@ -139,6 +139,9 @@ Information from each case will be added into a database and AI will be used to 
 
 Information to be presented in database include:
 - Accuracy of predictions
-- Time taken for deployment of help
+- Time taken for deployment of help (SCDF, CFR, UAV)
+- Utility of resources brought by UAVs
+- Required resources that were not brought by UAVs
+- Type of emergency (if it is not a fire/fall/cardiac arrest)
 
 [A sample of how this database looks like can be seen here.](Databases/incidents_analysis_info.csv) Sample values have not been added as these values depend on incidents picked up by ROBOCARES.
