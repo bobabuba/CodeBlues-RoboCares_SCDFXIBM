@@ -13,9 +13,9 @@
 ## The Team
 Our team is called CodeBlues.
 Our team members consist of:
-- Crystal Teo
-- Gini Wong 
-- Claire Tang
+- Teo Sze Min Crystal
+- Gini Wong Wei Wen
+- Tang Jing Yi Claire
 - Koh Hui Juan
 
 ## Short Description
@@ -59,11 +59,11 @@ The following diagram shows the workflow for the NODE_RED voice chatbot that ass
 - Step 3: Collect the relevant data required into the databases. IBM Watson Studio will be used to refine the data. AutoAI will be used to analyze the results and create a model. This model will be deployed for its relevant use, to [make a prediction of the incident](Databases/sensor_info_prediction.csv) and to [analyse the performance of ROBOCARES for future enhancements](Databases/incidents_analysis_info.csv).
 
 ## Built With
-Watson Assistant
-Watson Speech to Text
-Watson Text to Speech
-Node-RED
-Watson Studio
+- Watson Assistant
+- Watson Speech to Text
+- Watson Text to Speech
+- Node-RED
+- Watson Studio
 
 ## Future Work
 ### Enhanced voice analysis
