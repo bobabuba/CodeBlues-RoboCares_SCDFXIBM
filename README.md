@@ -56,8 +56,9 @@ The following diagram shows the workflow for the NODE_RED voice chatbot that ass
 [More detail is available here](DESCRIPTION.md)
 
 ## Getting Started
-f) Getting started* (Step-by-step instructions to install the required software and how
-to run a demo of your solution)
+Step 1: Create an instance of Watson Assistance and import (this JSON file)[skill-Emergency-Prompt.json] under 'Add dialog skill'. [Here is a preview link of how the chatbot works](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=kr-seo&integrationID=f7482e44-7291-4c76-bbf2-791a1ca58baa&serviceInstanceID=e8ec789c-8849-4d23-aec0-6ff75ae61177)
+Step 2: Import flow into Node-RED app, and configure Watson Assistant and Watson Speech nodes with new service instances and API Keys. Deploy to launch the dashboard for a preview of the voice-enabled chatbot.
+Step 3: Collect the relevant data required into the databases. IBM Watson Studio will be used to refine the data. AutoAI will be used to analyze the results and create a model. This model will be deployed for its relevant use, to [make a prediction of the incident](Databases/sensor_info_prediction.csv) and to [analyse the performance of ROBOCARES for future enhancements](incidents_analysis_info.csv).
 
 ## Built With
 Watson Assistant
