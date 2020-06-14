@@ -12,19 +12,19 @@ With Singapore facing an increasingly silver population, there is a larger vulne
 
 ## Why Robocares?
 ### Problems to tackle
-1. Distinguishing an emergency from a false alarm to reduce wastage of precious resources.
+1. Distinguishing an emergency from a false alarm to reduce wastage and mobilisation of precious resources.
 2. Timely discovery of emergencies, especially for vulnerable populations who spend most of their time at home alone.
-3. Analysis and tracking of situation while waiting for the emergency services to come.
+3. Analysis and tracking of onsite situation while waiting for the emergency services to arrive.
 4. Quicker mobilization of CFRs for effective early and effective intervention, especially for vulnerable populations.
 5. Prompt retrieval process of essential resources like fire extinguishers and AEDs to assist CFRs.
 
 ### Solution
 ROBOCARES Home Monitoring System can help to:
-1. determine if the resident is in an emergency situation.
+1. determine if the elderly is in an emergency situation.
 2. assess the severity of the situation with the use of sensors and a voice chatbot.
 3. consistently upload real-time information for analysis by relevant personnels while help is being deployed to the scene.
 4. mobilize CFRs in the vicinity early on so that they can provide timely help or resolve any minor emergencies promptly.
-5. retrieve essential resources to the scene more quickly, allowing for more timely response from CFRs as they reduce their journey time to the house as they do not have to worry about getting the resources.
+5. retrieve essential resources to the scene more quickly, allowing for more timely response from CFRs. CFRs can reduce their journey time to the house as they do not have to worry about getting the resources.
 
 ### Technology involved
 1. Existing technology
