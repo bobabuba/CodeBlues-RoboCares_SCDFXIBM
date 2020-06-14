@@ -132,7 +132,7 @@ Information to be presented in database include:
 - HFAD Triggered? (Y/N)
 - To Predict: Type of Event (Cardiac Arrest Case, First Aid Case, Minor Fire Case, Major Fire Case)
 
-[A sample of how this database looks like can be seen here.](sensor_info_prediction.csv)
+[A sample of how this database looks like can be seen here.](sensor_info_prediction.csv) Sample values have been added in for a brief idea, but the actual values used should be done according to actual datasets.
 
 #### Analysis of performance of ROBOCARES
 Information from each case will be added into a database and AI will be used to refine the predictions made by the central clouds system to better predict what is the type of event. The database can be analysed to allocate resources eg. UAVs more effectively to areas needed the most. This can help to make future mobilization of CFRs more effective and reduce wastage of precious resources.
@@ -141,4 +141,4 @@ Information to be presented in database include:
 - Accuracy of predictions
 - Time taken for deployment of help
 
-[A sample of how this database looks like can be seen here.](Databases/incidents_analysis_info.csv)
+[A sample of how this database looks like can be seen here.](Databases/incidents_analysis_info.csv) Sample values have not been added as these values depend on incidents picked up by ROBOCARES.
