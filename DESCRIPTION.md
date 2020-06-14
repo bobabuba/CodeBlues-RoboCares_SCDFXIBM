@@ -28,7 +28,7 @@ ROBOCARES Home Monitoring System can help to:
 
 ### Technology involved
 1. Existing technology
-- MyResponder App to notify CFRs.
+- MyResponder App to alert CFRs.
 - Home Fire Alarm Device (HFAD) to detect possible fire cases.
 2. Internet of Things (IoT)
 - Sensors to obtain readings on motion and voice, to make sense of the situation.
@@ -36,7 +36,7 @@ ROBOCARES Home Monitoring System can help to:
 - Voice-enabled Chatbot for further analysis of the situation and obtaining of details from casualty.
 4. Data Analytics
 - Develop model to predict whether there is an event, as well as type and severity of event, based on readings collected.
-- Analyse incidents picked up by Robocares (i.e. accuracy of prediction, time taken for help to arrive, etc) for future enhancements.
+- Analyse incidents picked up by ROBOCARES (i.e. accuracy of prediction, time taken for help to arrive, etc) for future enhancements.
 5. Unmanned Aerial vehicles (UAVs)
 - Deploy essential resources like AED and fire extinguisher to the scene of incident.
 
@@ -49,7 +49,7 @@ Examples of vulnerable populations include:
 ## What is it?
 ![Overview of ROBOCARES System](Overview of ROBOCARES System.PNG)
 
-ROBOCARES Home monitoring system consists of a central cloud system linked to multiple devices (ROBOCARES) which are placed around the house.  The system utilises IoT, AI, Data Analytics and Machine Learning. Each ROBOCARE consist of 3 types of sensors and have the HFAD incorporated. These devices are recommended to be placed in locations where the elderly frequent such as the toilets, bedrooms, living room and kitchen. 
+ROBOCARES Home monitoring system consists of a central cloud system linked to multiple devices (ROBOCARES) which are placed around the house.  The system utilises IoT, AI, Data Analytics and Machine Learning. Each ROBOCARE consist of 3 types of sensors and has the HFAD incorporated. These devices are recommended to be placed in locations where the elderly frequent such as the toilets, bedrooms, living room and kitchen. 
 
 Using the sensors, the ROBOCARES Home Monitoring System tells us 3 important pieces of information: (1) Whether there is truly an emergency (2) Type of emergency [if any] (3) Severity of emergency. This allows for better sense-making at the onset of the incident.
 
@@ -61,14 +61,14 @@ Additionally, two types of Unmanned Aerial Vehicles (UAVs) will be stationed at 
 ### Component 1: ROBOCARES
 ![ROBOCARES Device](ROBOCARES Device.PNG)
 ####  Sensors
-ROBOCARES leverages on IoT to obtain readings on various environmental factors, which will be compared against a benchmark to detect possible emergencies. It utilises various types of sensors
+ROBOCARES leverages on IoT to obtain readings on various environmental factors, which will be compared against a benchmark to detect possible emergencies. It utilises various types of sensors:
 
 1. Volume Sensor
 - Purpose: To identify for screams or shouts of help, or sounds of someone collapsing
 - Abnormalities: Spikes in volume (from screaming, shouting, loud banging or thuds from falls)
 
 2. Frequency (Tone) Sensor
-- Purpose: To pickup tones of anxiety or screaming in the resident's voice
+- Purpose: To pickup tones of anxiety, alarm or distress in the elderly's voice
 - Through the use of AI, ROBOCARES can leverage on Voice Match function to recognise the user's voice, and differentiate between the user's voice and other voices (i.e. from electronic gadgets like television, mobile phones, radio). This prevents false alarms, such as screams from movies
 
 3. Motion sensor
@@ -79,20 +79,21 @@ ROBOCARES leverages on IoT to obtain readings on various environmental factors, 
 - This is the existing SCDF technology which detect fires
 - Some flats may already have HFAD installed via the HFAD Assistance Scheme or mandatory installation for new residential flats
 - Siren will be activated to alert user and neighbours
-- ROBOCARES placed in kitchen will not have the HFAD
+- ROBOCARES placed in kitchen will not have the HFAD due to risk of false alarm from cooking smoke
 - To detect false alarms, residents will be given 1 minute to deactivate the siren before ROBOCARE concludes that there may be a minor/major fire case
 
 #### Voice Chatbot
 If there is a suspected emergency, ROBOCARES will ring for 5 seconds, before activating the Voice Chatbot.
-The Voice Chatbot will first ask resident: "Is there something wrong? Do you need any help?"
-This will be done in a pre-set language or dialect.
+The Voice Chatbot will first ask the elderly: "Is there something wrong? Do you need any help?"
+This will be done in a pre-set language or dialect to better cater to each elderly.
 ROBOCARES will also be able to detect responses in the selected language or dialect.
 Depending on the situation, the required help will be deployed. This will be elaborated further in the explanation below under "Putting it together"
 
 ### Component 2: Unmanned Aerial Vehicles (UAVs)
-As mentioned, there are two types of UAVs.
+There are two types of UAVs.
 
-The first type of UAV is the AED UAV, while the second type of UAV is the Fire Extinguisher UAV. As the name suggests, the former will carry around an AED, while the latter carries with it an small portable fire extinguisher. Both UAVs will also be equipped with first aid kits. 
+The first type of UAV is the AED UAV, while the second type of UAV is the Fire Extinguisher UAV. 
+As the name suggests, the former will carry around an AED, while the latter carries with it an small portable fire extinguisher. Both UAVs will also be equipped with first aid kits. 
 
 Depending on the type of event suspected, the type of UAV deployed will differ. This allows the CFRs to head directly to the location and have the necessary equipment and/or first aid supplies to help the resident more effectively and quickly. 
 
@@ -118,7 +119,7 @@ Putting Components 1 and 2 together, the following are 3 possible scenarios.
 ![Flowchart](flowchart.png)
 
 ### Component 3: Artificial Intelligence
-Information from each case will be added into a database and AI will be used to refine the predictions made by the central clouds system to better predict what is the type of event. This can help to make future mobilization of CFRs more effective and reduce wastage of precious resources.
+Information from each case will be added into a database and AI will be used to refine the predictions made by the central clouds system to better predict what is the type of event. The database can be analysed to allocate resources eg. UAVs more effectively to areas needed the most. This can help to make future mobilization of CFRs more effective and reduce wastage of precious resources.
 
 Information to be presented in database
 - Volume Sensor’s indicator (Depending on the instrument)
