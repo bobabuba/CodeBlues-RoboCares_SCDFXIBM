@@ -141,4 +141,4 @@ Information to be presented in database include:
 - Accuracy of predictions
 - Time taken for deployment of help
 
-[A sample of how this database looks like can be seen here.](incidents_analysis_info.csv)
+[A sample of how this database looks like can be seen here.](Databases/incidents_analysis_info.csv)
